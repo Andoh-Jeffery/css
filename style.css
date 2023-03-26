@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    width: 100%;
+}
+.nav ul{
+    margin: 10px;
+    float: right;
+}
+.nav ul li{
+    
+    display: inline;
+    padding: 10px;
+    font-family: consolas;
+}
+.nav ul a{
+    text-decoration: none;
+}
+.content{
+    width: 100%;
+    /* padding: 20px; */
+}
+.wrapper img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+    font-family: consolas;
+    text-shadow: 0px 2px 3px black;
+}
+.content article p{
+    font-size: 20px;
+    font-family: consolas;
+}
+.content img{
+    padding-top: 20px;
+    width: 100%;
+}
+.contact{
+    width: 100%;
+}
+.contact form{
+    text-align: center;
+
+}
+.contact form label{
+    font-size: 20px;
+    font-family: consolas;
+}
+/* .contact form input{
+    width: 50%;
+}
+.contact form input[type=text]{
+    
+    font-size: 20px;
+}
+.contact form textarea{
+    
+    font-size: 20px;
+}
+.contact form button{
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+} */
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.team img{
+    padding: 10px;
+    border-radius: 50%;
+}
+footer{
+    position: static;
+    background-color: gray;
+    /* box-shadow: 1px 2px 3px black; */
+}
+
